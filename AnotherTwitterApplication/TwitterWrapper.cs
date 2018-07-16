@@ -10,6 +10,7 @@ namespace AnotherTwitterApplication
 {
     class TwitterWrapper
     {
+
         public void Tweet(string message, TwitterContext twitterCtx)
         {
             var status =

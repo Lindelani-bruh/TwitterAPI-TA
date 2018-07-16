@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Examples.Tests
+{
+    public class TwitterWrapperTests
+    {
+        public void Tweet_UserMessage() {
+            //Arrange
+
+            //Act
+
+            //Assert
+        }
+    }
+}
