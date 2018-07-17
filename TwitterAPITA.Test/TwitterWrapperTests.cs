@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 using TwitterAPITA;
 using Xunit;
 
-namespace TwitterAPITA.Tests
+namespace TwitterAPITA.Test
 {
     public class TwitterWrapperTests
     {
+        [Fact]
         public void Add_TwoValues() {
-            //Arrange
-            double expected = 5;
-
-            //Act
             
+            //Arrange
+            int expect = 5;
+            
+             //Act
+            //bool actual = TwitterWrapper.Tweet();
+
             //Assert
+            //Assert.Equal(expect,actual);
         }
     }
 }
